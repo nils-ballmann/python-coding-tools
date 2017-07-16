@@ -14,18 +14,11 @@ class PythonCodingToolsExtension {
         this.loadConfig();
     }
 
-    public updateModuleVariable(document: vscode.TextDocument): void {
-        let editor = vscode.window.activeTextEditor;
-        if (!editor) {
-            vscode.window.showInformationMessage('Open a python file to update a module variable.');
-            return; // No open text editor
-        }
+    public updateModuleVariable(editor: vscode.TextEditor, document: vscode.TextDocument): void {
         if (document.languageId != 'python') {
-            vscode.window.showInformationMessage('Document "' + document.fileName + '" is not a python file.');
             return; // Not python
         }
         if (document.isClosed) {
-            vscode.window.showInformationMessage('Document "' + document.fileName + '" is already closed.');
             return; // File already closed
         }
 
@@ -75,7 +68,14 @@ export function activate(context: vscode.ExtensionContext) {
     var extension = new PythonCodingToolsExtension(context);
 
     context.subscriptions.push(vscode.commands.registerCommand('extension.python-coding-tools.update-module-variable', () => {
-        extension.updateModuleVariable(vscode.window.activeTextEditor.document);
+        if (!vscode.window) {
+            return;
+        }
+        let editor = vscode.window.activeTextEditor;
+        if (!editor) {
+            return;
+        }
+        extension.updateModuleVariable(editor, editor.document);
     }));
 
     let onWillSave = null;
