@@ -28,6 +28,11 @@ None yet...
 
 ## Release Notes
 
+### 1.0.1
+
+Bugfix release:
+- Python logo as extension icon
+
 ### 1.0.0
 
 Initial release:

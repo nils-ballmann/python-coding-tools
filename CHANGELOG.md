@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [Unreleased]
 - New Features
 
+## [1.0.1] - 2017-07-16
+### Added
+- Python logo as extension icon
+
 ## [1.0.0] - 2017-07-16
 ### Added
 - Providing a command to update a single module variable
