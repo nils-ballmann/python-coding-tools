@@ -25,12 +25,17 @@
             "title": "Python Coding Tools",
             "type": "object",
             "properties": {
-                "python-coding-tools.variableName": {
+                "python-coding-tools.update-module-variable.enableOnSave": {
+                    "type": "boolean",
+                    "description": "Enable to update a module variable on saving a python file.",
+                    "default": true
+                },
+                "python-coding-tools.update-module-variable.variableName": {
                     "type": "string",
                     "description": "Name of the module variable which should be updated.",
-                    "default": "__update__"
+                    "default": "__updated__"
                 },
-                "python-coding-tools.dateTimeFmt": {
+                "python-coding-tools.update-module-variable.dateTimeFmt": {
                     "type": "string",
                     "description": "Specify the DateTime format in moment.js notation.",
                     "default": "YYYY-MM-DD HH:mm:ss"
