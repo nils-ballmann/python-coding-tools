@@ -28,6 +28,11 @@ None yet...
 
 ## Release Notes
 
+### 1.0.2 - 2018-10-14
+
+Bugfix release:
+- https://snyk.io/vuln/npm:moment:20170905
+
 ### 1.0.1
 
 Bugfix release:
