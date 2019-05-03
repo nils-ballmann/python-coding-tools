@@ -58,7 +58,7 @@
         "@types/node": "^6.14.2",
         "mocha": "^5.2.0",
         "typescript": "^2.9.2",
-        "vscode": "^1.1.22"
+        "vscode": "^1.1.33"
     },
     "repository": {
         "type": "git",
