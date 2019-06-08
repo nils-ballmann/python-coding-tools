@@ -1,4 +1,4 @@
-# python-coding-tools README
+# README
 
 When moving from Eclipse and PyDev to vscode I always missed the functionality
 to automatically update a module variable to the date and time when saving the
@@ -120,30 +120,31 @@ if __name__ == '__main__':
 The result looks like this:
 
 ```shell-session
-nils@nyx:~$ python3 import_pct.py 
+nils@nyx:~$ python3 import_pct.py
 Last update of this file was on 2019-02-17 23:36:15.
 Last update of pct.py was on 2019-02-17 23:06:24.
 ```
 
 ## Known Issues
 
-None yet...
+* No tests
 
 ## Release Notes
 
-### x.x.x - UNRELEASED
+### 1.0.3 - 2019-06-08
 
-* README update: Short usage info
+* Added short usage info
+* Fixed several dependencies
 
 ### 1.0.2 - 2018-10-14
 
-* Bugfix release: <https://snyk.io/vuln/npm:moment:20170905>
+* Fixed <https://snyk.io/vuln/npm:moment:20170905>
 
-### 1.0.1
+### 1.0.1 - 2017-07-16
 
-* Bugfix release: Python logo as extension icon
+* Added Python logo as extension icon
 
-### 1.0.0
+### 1.0.0 - 2017-07-16
 
 Initial release:
 
