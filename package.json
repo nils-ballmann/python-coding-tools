@@ -2,7 +2,7 @@
     "name": "python-coding-tools",
     "displayName": "Python Coding Tools",
     "description": "The PCT are a compilation of tools, which are helpful when coding Python. The feature list may change over time, as functionality provided by other extensions, will be removed from PCT.",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "icon": "images/python-logo.png",
     "publisher": "nils-ballmann",
     "engines": {
