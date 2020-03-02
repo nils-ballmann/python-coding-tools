@@ -90,7 +90,7 @@ export function activate(context: vscode.ExtensionContext) {
 
     let onWillSave: vscode.Disposable | null = null;
     if (extension.isEnabledOnSave()) {
-        onWillSave = vscode.workspace.onWillSaveTextDocument((event: vscode.TextDocumentWillSaveEvent) => {
+        onWillSave = vscode.workspace.onWillSaveTextDocument((_: vscode.TextDocumentWillSaveEvent) => {
             vscode.commands.executeCommand('extension.python-coding-tools.update-module-variable');
         });
         context.subscriptions.push(onWillSave);
@@ -101,7 +101,7 @@ export function activate(context: vscode.ExtensionContext) {
 
         if (extension.isEnabledOnSave()) {
             if (onWillSave === null) {
-                context.subscriptions.push(vscode.workspace.onWillSaveTextDocument((event: vscode.TextDocumentWillSaveEvent) => {
+                context.subscriptions.push(vscode.workspace.onWillSaveTextDocument((_: vscode.TextDocumentWillSaveEvent) => {
                     vscode.commands.executeCommand('extension.python-coding-tools.update-module-variable');
                 }));
             }
