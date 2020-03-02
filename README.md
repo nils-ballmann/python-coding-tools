@@ -24,19 +24,6 @@ python's) notation. The command can be automatically executed on saving a python
 file. The automatic command execution on saving a python file can also be
 disabled in the configuration.
 
-## Extension Settings
-
-This extension contributes the following settings:
-
-### Update module variable
-
-* `python-coding-tools.update-module-variable.enableOnSave`: Enable/Disable the
-  automatic update of a module variable on saving a python file.
-* `python-coding-tools.update-module-variable.variableName`: Name of the module
-  variable which should be updated.
-* `python-coding-tools.update-module-variable.dateTimeFmt`: Specify the DateTime
-  format in moment.js notation.
-
 ## Usage
 
 For those, who never have used this feature with Eclipse and PyDev, here is a
@@ -124,6 +111,19 @@ nils@nyx:~$ python3 import_pct.py
 Last update of this file was on 2019-02-17 23:36:15.
 Last update of pct.py was on 2019-02-17 23:06:24.
 ```
+
+## Extension Settings
+
+This extension contributes the following settings:
+
+### Update module variable
+
+* `python-coding-tools.update-module-variable.enableOnSave`: Enable/Disable the
+  automatic update of a module variable on saving a python file.
+* `python-coding-tools.update-module-variable.variableName`: Name of the module
+  variable which should be updated.
+* `python-coding-tools.update-module-variable.dateTimeFmt`: Specify the DateTime
+  format in moment.js notation.
 
 ## Known Issues
 
