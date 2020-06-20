@@ -131,6 +131,10 @@ This extension contributes the following settings:
 
 ## Release Notes
 
+### x.x.x - UNRELEASED
+
+* Fixed some dependencies
+
 ### 1.0.3 - 2019-06-08
 
 * Added short usage info
