@@ -98,7 +98,7 @@ import pct
 
 def main():
     print('Last update of this file was on {}.'.format(__updated__))
-    print('Last update of pct.py was on {}.'.format(pct.__updated__)
+    print('Last update of pct.py was on {}.'.format(pct.__updated__))
 
 if __name__ == '__main__':
     main()
