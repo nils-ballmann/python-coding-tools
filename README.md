@@ -133,7 +133,7 @@ This extension contributes the following settings:
 
 ### x.x.x - UNRELEASED
 
-* Fixed some dependencies
+* Updated some dependencies
 
 ### 1.0.3 - 2019-06-08
 
