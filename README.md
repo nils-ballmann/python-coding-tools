@@ -21,15 +21,15 @@ This extension provides a command to 'Update a python module variable'. The name
 of the python module variable can be configured. The date and time format used
 when updating the variable's value can be configured in moment.js (sadly not
 python's) notation. The command can be automatically executed on saving a python
-file. The automatic command execution on saving a python file can also be
-disabled in the configuration.
+file active in the foreground. The automatic command execution on saving a
+python file can also be disabled in the configuration.
 
 ## Usage
 
 For those, who never have used this feature with Eclipse and PyDev, here is a
 short how to description with the default settings.
 
-First you have to put a variable to the module.
+First you have to put a variable to the module (`__updated__` in this example).
 
 ```python
 #!/usr/bin/env python3
@@ -75,7 +75,7 @@ if __name__ == '__main__':
     main()
 ```
 
-Which then results in the following output:
+Which then results in the following output when executing the Python script:
 
 ```shell-session
 nils@nyx:~$ python3 pct.py
@@ -104,7 +104,7 @@ if __name__ == '__main__':
     main()
 ```
 
-The result looks like this:
+When executed the result looks like this:
 
 ```shell-session
 nils@nyx:~$ python3 import_pct.py
@@ -119,7 +119,8 @@ This extension contributes the following settings:
 ### Update module variable
 
 * `python-coding-tools.update-module-variable.enableOnSave`: Enable/Disable the
-  automatic update of a module variable on saving a python file.
+  automatic update of a module variable on saving a python file active in the
+  foreground.
 * `python-coding-tools.update-module-variable.variableName`: Name of the module
   variable which should be updated.
 * `python-coding-tools.update-module-variable.dateTimeFmt`: Specify the DateTime
