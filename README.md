@@ -134,17 +134,17 @@ This extension contributes the following settings:
 
 ### x.x.x - UNRELEASED
 
-* Updated some dependencies
+* Updated several dependencies
 * Security <https://snyk.io/vuln/SNYK-JS-MOMENT-2944238>
 
 ### 1.0.3 - 2019-06-08
 
 * Added short usage info
-* Fixed several dependencies
+* Updated several dependencies
 
 ### 1.0.2 - 2018-10-14
 
-* Fixed <https://snyk.io/vuln/npm:moment:20170905>
+* Security <https://snyk.io/vuln/npm:moment:20170905>
 
 ### 1.0.1 - 2017-07-16
 
@@ -152,7 +152,6 @@ This extension contributes the following settings:
 
 ### 1.0.0 - 2017-07-16
 
-Initial release:
-
 * Providing a command to update a single module variable
 * Automatic command execution on saving a python file
+* Initial release

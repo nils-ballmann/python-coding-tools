@@ -11,7 +11,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 - <https://snyk.io/vuln/SNYK-JS-MOMENT-2944238>
 
-### Fixed
+### Updated
 
 - Several dependencies
 
@@ -21,13 +21,13 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 - Short usage info
 
-### Fixed
+### Updated
 
 - Several dependencies
 
 ## [1.0.2] - 2018-10-14
 
-### Fixed
+### Security
 
 - <https://snyk.io/vuln/npm:moment:20170905>
 
