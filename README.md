@@ -134,6 +134,8 @@ This extension contributes the following settings:
 
 ### x.x.x - UNRELEASED
 
+### 1.0.4 - 2022-08-03
+
 * Updated several dependencies
 * Security <https://snyk.io/vuln/SNYK-JS-MOMENT-2944238>
 
