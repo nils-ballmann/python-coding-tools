@@ -7,9 +7,13 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
-### Updated
+### Security
 
-- Some dependencies
+- <https://snyk.io/vuln/SNYK-JS-MOMENT-2944238>
+
+### Fixed
+
+- Several dependencies
 
 ## [1.0.3] - 2019-06-08
 

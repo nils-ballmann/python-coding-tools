@@ -135,6 +135,7 @@ This extension contributes the following settings:
 ### x.x.x - UNRELEASED
 
 * Updated some dependencies
+* Security <https://snyk.io/vuln/SNYK-JS-MOMENT-2944238>
 
 ### 1.0.3 - 2019-06-08
 
