@@ -2,7 +2,7 @@
     "name": "python-coding-tools",
     "displayName": "Python Coding Tools",
     "description": "The PCT are a compilation of tools, which are helpful when coding Python. The feature list may change over time, as functionality provided by other extensions, will be removed from PCT.",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "icon": "images/python-logo.png",
     "publisher": "nils-ballmann",
     "engines": {
@@ -16,10 +16,12 @@
     ],
     "main": "./out/extension.js",
     "contributes": {
-        "commands": [{
-            "command": "extension.python-coding-tools.update-module-variable",
-            "title": "Update python module variable"
-        }],
+        "commands": [
+            {
+                "command": "extension.python-coding-tools.update-module-variable",
+                "title": "Update python module variable"
+            }
+        ],
         "configuration": {
             "title": "Python Coding Tools",
             "type": "object",

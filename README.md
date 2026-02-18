@@ -118,42 +118,44 @@ This extension contributes the following settings:
 
 ### Update module variable
 
-* `python-coding-tools.update-module-variable.enableOnSave`: Enable/Disable the
+- `python-coding-tools.update-module-variable.enableOnSave`: Enable/Disable the
   automatic update of a module variable on saving a python file active in the
   foreground.
-* `python-coding-tools.update-module-variable.variableName`: Name of the module
+- `python-coding-tools.update-module-variable.variableName`: Name of the module
   variable which should be updated.
-* `python-coding-tools.update-module-variable.dateTimeFmt`: Specify the DateTime
+- `python-coding-tools.update-module-variable.dateTimeFmt`: Specify the DateTime
   format in moment.js notation.
 
 ## Known Issues
 
-* No tests
+- No tests
 
 ## Release Notes
 
-### x.x.x - UNRELEASED
+### 1.0.5 - 2026-02-18
+
+- Updated several dependencies
 
 ### 1.0.4 - 2022-08-03
 
-* Updated several dependencies
-* Security <https://snyk.io/vuln/SNYK-JS-MOMENT-2944238>
+- Updated several dependencies
+- Security <https://snyk.io/vuln/SNYK-JS-MOMENT-2944238>
 
 ### 1.0.3 - 2019-06-08
 
-* Added short usage info
-* Updated several dependencies
+- Added short usage info
+- Updated several dependencies
 
 ### 1.0.2 - 2018-10-14
 
-* Security <https://snyk.io/vuln/npm:moment:20170905>
+- Security <https://snyk.io/vuln/npm:moment:20170905>
 
 ### 1.0.1 - 2017-07-16
 
-* Added Python logo as extension icon
+- Added Python logo as extension icon
 
 ### 1.0.0 - 2017-07-16
 
-* Providing a command to update a single module variable
-* Automatic command execution on saving a python file
-* Initial release
+- Providing a command to update a single module variable
+- Automatic command execution on saving a python file
+- Initial release
